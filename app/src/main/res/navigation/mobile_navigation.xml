@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_colores">
+
+    <fragment
+        android:id="@+id/nav_lectura"
+        android:name="com.example.mundomgico.ui.lectura.LecturaFragment"
+        android:label="@string/menu_lectura"
+        tools:layout="@layout/fragment_lectura" />
+
+    <fragment
+        android:id="@+id/nav_numeros"
+        android:name="com.example.mundomgico.ui.numeros.NumerosFragment"
+        android:label="@string/menu_numeros"
+        tools:layout="@layout/fragment_numeros" />
+
+    <fragment
+        android:id="@+id/nav_colores"
+        android:name="com.example.mundomgico.ui.colores.ColoresFragment"
+        android:label="@string/menu_colores"
+        tools:layout="@layout/fragment_colores" />
+    <fragment
+        android:id="@+id/nav_matematicas"
+        android:name="com.example.mundomgico.ui.matematicas.MatematicasFragment"
+        android:label="@string/menu_matematicas"
+        tools:layout="@layout/fragment_matematicas" />
+    <fragment
+        android:id="@+id/nav_letras"
+        android:name="com.example.mundomgico.ui.letras.LetrasFragment"
+        android:label="@string/menu_letras"
+        tools:layout="@layout/fragment_letras" />
+    <fragment
+        android:id="@+id/nav_formas"
+        android:name="com.example.mundomgico.ui.formas.FormasFragment"
+        android:label="@string/menu_formas"
+        tools:layout="@layout/fragment_formas" />
+</navigation>

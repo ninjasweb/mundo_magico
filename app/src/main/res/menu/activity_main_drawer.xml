@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_colores"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_colores" />
+        <item
+            android:id="@+id/nav_numeros"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_numeros" />
+        <item
+            android:id="@+id/nav_lectura"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_lectura" />
+        <item
+            android:id="@+id/nav_matematicas"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_matematicas" />
+        <item
+            android:id="@+id/nav_letras"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_letras" />
+        <item
+            android:id="@+id/nav_formas"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_formas" />
+    </group>
+</menu>

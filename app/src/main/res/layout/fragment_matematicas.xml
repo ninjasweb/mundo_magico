@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.matematicas.MatematicasFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello" />
+    <TextView
+        android:id="@+id/resul2"
+        android:layout_width="146dp"
+        android:layout_height="40dp"
+        android:layout_x="204dp"
+        android:layout_y="448dp" />
+
+    <TextView
+        android:id="@+id/resul3"
+        android:layout_width="143dp"
+        android:layout_height="40dp"
+        android:layout_x="203dp"
+        android:layout_y="512dp" />
+
+    <TextView
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:layout_x="46dp"
+        android:layout_y="273dp"
+        android:text="Número 2:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="307dp"
+        android:layout_height="102dp"
+        android:layout_x="39dp"
+        android:layout_y="67dp"
+        android:text="Mathematical operations"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#673AB7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="217dp"
+        android:text="Número 1:"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:layout_x="199dp"
+        android:layout_y="204dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="253dp" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_x="199dp"
+        android:layout_y="252dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="35dp"
+        android:layout_y="506dp"
+        android:onClick="Multiplicar"
+        android:text="Multiplicar"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_x="34dp"
+        android:layout_y="376dp"
+        android:onClick="Sumar"
+        android:text="Sumar"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="438dp"
+        android:onClick="Restar"
+        android:text="Restar"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_x="35dp"
+        android:layout_y="564dp"
+        android:onClick="Dividir"
+        android:text="Dividir"
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <Button
+        android:id="@+id/Salir"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_x="36dp"
+        android:layout_y="622dp"
+        android:onClick="Salir"
+        android:text="Salir"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="605dp" />
+
+    <TextView
+        android:id="@+id/resul"
+        android:layout_width="146dp"
+        android:layout_height="40dp"
+        android:layout_x="205dp"
+        android:layout_y="381dp" />
+
+    <TextView
+        android:id="@+id/resul4"
+        android:layout_width="149dp"
+        android:layout_height="40dp"
+        android:layout_x="201dp"
+        android:layout_y="573dp" />
+
+</AbsoluteLayout>
